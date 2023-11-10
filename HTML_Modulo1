@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercise_Modulo1_HTML</title>
+    </head>
+
+    <body>
+        <h1>Módulo 1 - Primeiros Passos com HTML </h1>
+        <hr/>
+
+        <h2><strong>Índice</strong></h2>
+            <ul>
+                <li><a href="#Topico1">História dos computadores</a></li>
+                <li><a href="#Topico2">O que são Clients?</a></li>
+                <li><a href="#Topico3">O que são Servers?</a></li>
+                <li><a href="#Topico4">Como é uma estrutura básica de um HTML?</a></li>
+                <li><a href="#Topico5">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+                <li><a href="#Topico6">Links de referências</a></li>
+            </ul>
+
+        <h2 id="Topico1"><strong>História dos computadores</strong></h2>
+            <p>A história dos computadores remonta à década de 1830, com o inventor Charles Babbage concebendo a Máquina Analítica. 
+                No entanto, o primeiro computador eletrônico programável foi o ENIAC, concluído em 1945 nos Estados Unidos. 
+                A década de 1950 viu o surgimento dos mainframes, enquanto os anos 1970 testemunharam a popularização dos computadores pessoais, como o Altair 8800. 
+                O advento dos microprocessadores na década de 1970 foi crucial para a miniaturização e popularização dos computadores. 
+                A década de 1980 trouxe os computadores pessoais acessíveis, incluindo o IBM PC. 
+                Desde então, a evolução tecnológica trouxe laptops, smartphones e a ascensão da computação em nuvem, transformando radicalmente a computação moderna.</p>
+                
+        <h2 id="Topico2"><strong>O que são Clients</strong></h2>
+            <p>No contexto do desenvolvimento web, o termo "clients" (clientes) geralmente se refere aos clientes de um serviço web, ou seja, os navegadores web 
+                que os usuários utilizam para acessar e interagir com páginas HTML, CSS e JavaScript. 
+                Um cliente web é o software que solicita e exibe páginas web, processando o código HTML e interpretando o estilo (CSS) e a lógica (JavaScript) presentes nessas páginas.
+                Os clientes mais comuns são os navegadores da web, como Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, entre outros. 
+                Esses navegadores são chamados de "clientes" porque eles consomem (ou "cliente de") os serviços fornecidos pelos servidores web, que armazenam e servem os arquivos HTML,
+                CSS e JavaScript. Portanto, no contexto do HTML, quando se fala sobre clientes, geralmente se está referindo aos navegadores web que exibem e interpretam o 
+                conteúdo HTML para os usuários finais.
+                Este é o lado do cliente da arquitetura cliente-servidor que é fundamental na World Wide Web.</p>
+            
+        <h2 id="Topico3"><strong>O que são Servers?</strong></h2>
+            <p>No contexto da web, um "server" (servidor) refere-se a um computador ou sistema de computadores que fornece serviços 
+                ou recursos para outros dispositivos, chamados de "clients" (clientes), através da internet ou de uma rede local. 
+                Os servidores desempenham um papel crucial na arquitetura cliente-servidor, onde os clientes solicitam recursos e os servidores respondem a essas solicitações.<br/>
+                Aqui estão algumas funções comuns dos servidores no mundo web:</p>
+            <ul>
+                <li><strong>Hospedagem de Sites:</strong> Os servidores web armazenam e servem arquivos, como páginas HTML, imagens, scripts e outros recursos, para os navegadores dos usuários. 
+                    Os servidores web mais comuns incluem o Apache, Nginx e Microsoft IIS.</li>
+                <li><strong>Bancos de Dados:</strong> Servidores de banco de dados armazenam e gerenciam dados, permitindo que os aplicativos web acessem e manipulem informações. 
+                    Exemplos incluem MySQL, PostgreSQL e Microsoft SQL Server.</li>
+                <li><strong>Aplicações Web:</strong> Servidores de aplicativos executam a lógica de negócios e processam solicitações de clientes para aplicativos web dinâmicos. 
+                    Exemplos incluem servidores que executam PHP, Node.js, Ruby on Rails, entre outros.</li>
+                <li><strong>E-mail:</strong> Servidores de e-mail gerenciam a entrega e recebimento de e-mails. Exemplos incluem servidores como Microsoft Exchange, Postfix e Sendmail.</li>
+                <li><strong>Arquivos e Armazenamento:</strong> Servidores de arquivos fornecem armazenamento centralizado e gerenciam o acesso a arquivos em uma rede. 
+                    Exemplos incluem servidores de arquivos Windows, NFS (Network File System), entre outros.</li>
+                <li><strong>Autenticação e Autorização:</strong> Servidores de autenticação e autorização gerenciam o acesso a recursos, garantindo que usuários tenham permissões apropriadas. 
+                    Exemplos incluem servidores LDAP (Lightweight Directory Access Protocol) e OAuth.</li> 
+            </ul>         
+
+        <h2 id="Topico4"><strong>Como é uma estrutura básica de HTML?</strong></h2>
+            <p>A estrutura básica de um documento HTML (Hypertext Markup Language) consiste em elementos essenciais que ajudam a organizar e formatar o conteúdo para ser exibido em um navegador. 
+                Aqui está uma estrutura HTML simples:</p>
+                <img src="https://ayltoninacio.com.br/img/p/32c1w838.jpg" alt="Exemplo de HTML">
+            <p>Explicação dos principais elementos:</p>
+                <ul>    
+                    <li><strong>!DOCTYPE html:</strong> strong Define a versão do HTML sendo usada (HTML5, no caso).</li> 
+                    <li><strong>html:</strong> Elemento raiz que engloba todo o conteúdo da página.</li>
+                    <li><strong>head:</strong> Contém informações sobre o documento, como metadados, links para estilos e scripts.</li>
+                    <li><strong>meta charset="UTF-8":</strong> Define o conjunto de caracteres UTF-8 para suportar caracteres especiais.</li>
+                    <li><strong>title:</strong> Define o título da página, exibido na barra de título do navegador.</li>
+                    <li><strong>body:</strong> Contém todo o conteúdo visível da página, como texto, imagens, links, etc.</li>
+                    <li><strong>h1, p:</strong> Exemplos de elementos de cabeçalho e parágrafo.</li>
+                </ul>
+            <p><small>Esta é uma estrutura básica e pode ser expandida conforme necessário, incluindo mais elementos, estilos, scripts e outros recursos para criar páginas web mais complexas.</small></p>
+            
+        <h2 id="Topico5"><strong>Entendendo a diferença entre listas ordenadas e não ordenadas:</strong></h2>
+            <p>As listas ordenadas ( ol ) e não ordenadas ( ul ) são duas formas diferentes de estruturar e exibir conjuntos de itens em HTML. 
+                Vamos entender as principais diferenças entre elas:</p>
+            <h3>Lista Ordenada "ol"</h3>
+                <h4><strong>Marcadores Numerados:</strong></h4> <!--h4 used just to complet the h1...h6 task-->
+                <p>Os itens de uma lista não ordenada são exibidos com marcadores de bala (círculos, quadrados, etc.).</p>
+                <h4><strong>Ordem Importa:</strong></h4>
+                    <p>A ordem dos itens é significativa. Os itens são numerados ou marcados de acordo com a ordem em que aparecem na lista.</p>
+                    <h5>Exemplo:</h5>
+                        <img src="https://image.slidesharecdn.com/aula5-141124154058-conversion-gate02/85/aula5-listas-html-5-6-320.jpg?cb=1671639939" alt="Foto lista ordenada">
+                        <p>Resultado:<br />
+                            <ol>
+                                <li>Carros</li>
+                                <li>Motos</li>
+                                <li>Casas</li>
+                                <li>Esportes</li>
+                                <li>Livros</li>
+                                <li>Filmes</li>
+                            </ol>
+                        </p>
+
+            <h3><strong>Lista Não Ordenada ( ul ):</strong></h3>
+                <h4><strong>Marcadores de Bala:</strong></h4>
+                    <p>Os itens de uma lista não ordenada são exibidos com marcadores de bala (círculos, quadrados, etc.).</p>
+                <h4><strong>Ordem não Importa:</strong></h4>
+                    <p>A ordem dos itens não é significativa. Eles são simplesmente uma coleção de itens.</p> 
+                <h5>Exemplo:</h5>
+                    <img src="https://image.slidesharecdn.com/aula5-141124154058-conversion-gate02/85/aula5-listas-html-5-4-320.jpg?cb=1671639939">
+                    <p>Resultado:<br />
+                        <ul>
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                            <li>Item 4</li>
+                            <li>Item 5</li>
+                            <li>Item 6</li>
+                        </ul>
+                    </p>
+
+            <h3><strong>Resumo:</strong></h3>
+                <ul>
+                    <li>Use <strong><mark>ol</mark></strong> quando a ordem dos itens é importante e você deseja indicar uma sequência</li>
+                    <li>Use <strong><mark>ul</mark></strong> quando a ordem dos itens não importa, e você está criando uma lista de itens independentes.</li>
+                </ul>
+                <p>Ambas as listas podem conter outros elementos HTML, como parágrafos, imagens, links e etc., dentro de cada item da lista <strong>( il )</strong>,permitindo uma
+                flexibilidade na estruturação do conteúdo.</p> 
+
+        <h2 id="Topico6"><strong>Links e Referências</strong></h2>
+            <ul>
+                <li><a href="http://dio.me" target="_blank">Dio.me</a></li>
+                <li><a href="http://w3c.org" target="_blank">Wec.org</a></li>
+                <li><a href="https://github.com/digitalinnovationone/trilha-html-modulo-1" target="_blank">GitHub do código-fonte</a></li>
+            </ul>
+    </body>
+</html>
